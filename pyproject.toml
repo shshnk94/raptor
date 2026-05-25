@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "raptor"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+    "faiss-cpu",
+    "numpy",
+    "openai",
+    "scikit-learn",
+    "sentence-transformers",
+    "tenacity",
+    "tiktoken",
+    "torch",
+    "transformers",
+    "umap-learn",
+]
